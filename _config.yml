@@ -102,7 +102,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Alliance"
+  name             : "The Alliance"
   avatar           : /assets/images/Alliance_logo.jpg
   bio              : "Portage Network"
   location         : "Canada"
@@ -111,9 +111,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:support@portagenetwork.ca"
-    - label: "Website"
+    - label: "Home Page"
       icon: "fas fa-fw fa-link"
-      url: "https://assistant.portagenetwork.ca"
+      url: "https://alliancecan.ca/en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/portagenetwork/roadmap"
@@ -121,12 +121,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
+    - label: "Contact Us"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:support@portagenetwork.ca"
-    - label: "Website"
+    - label: "The Digital Research Alliance of Canada"
       icon: "fas fa-fw fa-link"
-      url: "https://assistant.portagenetwork.ca"
+      url: "https://alliancecan.ca/en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/portagenetwork/roadmap"
