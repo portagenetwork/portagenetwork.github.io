@@ -22,10 +22,4 @@ var store = [{
         "tags": [],
         "url": "/term-of-use/",
         "teaser": null
-      },{
-        "title": "Test Post",
-        "excerpt":"Search   All post will be searchable across this site  ","categories": [],
-        "tags": [],
-        "url": "/test-post/",
-        "teaser": null
       }]
