@@ -23,7 +23,7 @@ name                     : "Portage Network"
 description              : "Rebranding Test for DMP Assistant"
 url                      : "https://portagenetwork.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "portagenetwork/portagenetwork.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/Alliance_logo.jpg
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
