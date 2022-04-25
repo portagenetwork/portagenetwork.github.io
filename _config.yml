@@ -19,7 +19,7 @@ locale                   : "en"
 title                    : "DMP Assistant"
 title_separator          : "-"
 subtitle                 : "The test rebranding site using Github page"
-name                     : "Portage Network"
+name                     : "The Alliance"
 description              : "Rebranding Test for DMP Assistant"
 url                      : "https://portagenetwork.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -102,16 +102,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "The Alliance"
-  avatar           : /assets/images/Alliance_logo.jpg
-  bio              : "Portage Network"
+  name             : "DMP Assistant Service Team"
+  avatar           : /assets/images/dmp_logo.png
+  bio              : "DMP Assistant Tool @ assistant.portagenetwork.ca"
   location         : "Canada"
   email            : "support@portagenetwork.ca"
   links:
-    - label: "Email"
+    - label: "Email Us"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:support@portagenetwork.ca"
-    - label: "Home Page"
+    - label: "The Alliance"
       icon: "fas fa-fw fa-link"
       url: "https://alliancecan.ca/en"
     - label: "GitHub"
