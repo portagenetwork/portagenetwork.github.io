@@ -1,12 +1,8 @@
 # main links
 main:
-  - title: "Alliance"
-    url: https://alliancecan.ca/en
   - title: "About"
     url: /about/
   - title: "Posts"
     url: /year-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  - title: "Alliance"
+    url: https://alliancecan.ca/en

@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-25T16:16:23-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">DMP Assistant</title><subtitle>Rebranding Test for DMP Assistant</subtitle><author><name>Alliance</name><email>support@portagenetwork.ca</email></author><entry><title type="html">About</title><link href="http://localhost:4000/about/" rel="alternate" type="text/html" title="About" /><published>2022-04-25T00:00:00-04:00</published><updated>2022-04-25T00:00:00-04:00</updated><id>http://localhost:4000/about</id><content type="html" xml:base="http://localhost:4000/about/"><![CDATA[<h1 id="dmp-assistant">DMP Assistant</h1>
+
+<p><a href="https://github.com/portagenetwork/roadmap/actions"><img src="https://github.com/portagenetwork/roadmap/workflows/Brakeman/badge.svg" alt="Actions Brakeman" /></a>
+<a href="https://github.com/portagenetwork/roadmap/actions"><img src="https://github.com/portagenetwork/roadmap/workflows/ESLint/badge.svg" alt="Actions ESLint" /></a>
+<a href="https://github.com/portagenetwork/roadmap/actions"><img src="https://github.com/portagenetwork/roadmap/workflows/Tests%20-%20MySQL/badge.svg" alt="Actions Test - MySQL" /></a>
+<a href="https://github.com/portagenetwork/roadmap/blob/deployment-portage/LICENSE.md"><img src="https://img.shields.io/github/license/portagenetwork/roadmap" alt="MIT License" /></a>
+<a href="https://GitHub.com/portagenetwork/roadmap/releases/"><img src="https://img.shields.io/github/v/release/portagenetwork/roadmap.svg" alt="GitHub release" /></a>
+<a href="https://GitHub.com/portagenetwork/roadmap/issues/"><img src="https://img.shields.io/github/issues/portagenetwork/roadmap.svg" alt="GitHub issues" /></a></p>
+
+<blockquote>
+  <p>Developed by <strong>the Digital Research Alliance of Canada (the Alliance)</strong> in collaboration with host institution University of Alberta, DMP Assistant repo is a <strong>fork</strong> of the current state of the main <a href="https://github.com/DMPRoadmap/roadmap">DMP Roadmap codebase</a>, which is management and developed jointly provided by the Digital Curation Centre (DCC) and the University of California Curation Center (UC3).</p>
+</blockquote>
+
+<hr />
+<ul>
+  <li><a href="#last-update">Latest Update</a></li>
+  <li><a href="#overview">Overview</a></li>
+  <li><a href="#installation">Installation</a>
+    <ul>
+      <li><a href="#pre-requisites">Pre-requisites</a></li>
+      <li><a href="#troubleshooting">Troubleshooting</a></li>
+      <li><a href="#support">Support</a></li>
+    </ul>
+  </li>
+  <li><a href="#about-dmp-roadmap">About DMP Roadmap</a></li>
+  <li>
+    <h2 id="contributing"><a href="#contributing">Contributing</a></h2>
+  </li>
+</ul>
+
+<h2 id="latest-update">Latest Update</h2>
+
+<ul>
+  <li>DMP Assistant will upgrade to Version 3 in Q1 2022</li>
+</ul>
+
+<h2 id="overview">Overview</h2>
+
+<p>The DMP Assistant is a national, online, bilingual data management planning tool developed by <a href="https://alliancecan.ca">the Digital Research Alliance of Canada (the Alliance)</a> in collaboration with host institution University of Alberta to assist researchers in preparing data management plans (DMPs). This tool is freely available to all researchers, and develops a DMP through a series of key data management questions, supported by best-practice guidance and examples.</p>
+
+<p>The DMP Assistant was adapted from the <a href="https://dcc.ac.uk/">Digital Curation Centre (DCC)</a>’s <a href="https://dmponline.dcc.ac.uk/">DMPonline</a> tool, and uses the <a href="https://github.com/DMPRoadmap/roadmap">DMP Roadmap codebase</a> developed by DCC and <a href="https://assistant.portagenetwork.ca/%20https://cdlib.org/services/uc3/">the University of California Curation Center (UC3)</a>.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>See the <a href="https://github.com/portagenetwork/roadmap/wiki/Installation">Installation Guide</a> on the Wiki.</p>
+
+<h3 id="pre-requisites">Pre-requisites</h3>
+
+<p>DMP Assistant is a Ruby on Rails application and you will need to have:</p>
+<ul>
+  <li>Ruby = 2.6.6 - 2.6.9</li>
+  <li>Rails = 5</li>
+  <li>MySQL &gt;= 5</li>
+</ul>
+
+<p>Further detail on how to install Ruby on Rails applications are available from the Ruby on Rails site: http://rubyonrails.org.</p>
+
+<p>Further details on how to install MySQL and create your first user and database. Be sure to follow the instructions for your particular environment.</p>
+<ul>
+  <li>Install: http://dev.mysql.com/downloads/mysql/</li>
+  <li>Create a user: http://dev.mysql.com/doc/refman/5.7/en/create-user.html</li>
+  <li>Create the database: http://dev.mysql.com/doc/refman/5.7/en/creating-database.html</li>
+</ul>
+
+<p>You may also find the following resources handy:</p>
+
+<ul>
+  <li>The Getting Started Guide: http://guides.rubyonrails.org/getting_started.html</li>
+  <li>Ruby on Rails Tutorial Book: http://www.railstutorial.org/</li>
+</ul>
+
+<h3 id="troubleshooting">Troubleshooting</h3>
+
+<p>See the <a href="https://github.com/portagenetwork/roadmap/wiki/Troubleshooting">Troubleshooting Guide</a> on the Wiki.</p>
+
+<h3 id="support">Support</h3>
+
+<p>1) Any question about DMP Assistant can be emailed to support@portagenetwork.ca. A team member will follow-up with you soon.</p>
+
+<p>2) Issues should be reported here on <a href="https://github.com/portagenetwork/roadmap/issues">Github Issues</a>. Please be advised though that we can only provide limited support for your local installations. Any security patches and bugfixes will be applied to the most recent version, and we will endeavour to support migrations to the current release.</p>
+
+<h2 id="about-dmp-roadmap">About DMP Roadmap</h2>
+
+<p>DMP Roadmap is a Data Management Planning tool. Management and development of DMP Roadmap is jointly provided by the Digital Curation Centre (DCC), http://www.dcc.ac.uk/, and the University of California Curation Center (UC3), http://www.cdlib.org/services/uc3/.</p>
+
+<p>The tool has four main functions:</p>
+
+<ol>
+  <li>To help create and maintain different versions of Data Management Plans;</li>
+  <li>To provide useful guidance on data management issues and how to meet research funders’ requirements;</li>
+  <li>To export attractive and useful plans in a variety of formats;</li>
+  <li>To allow collaborative work when creating Data Management Plans.</li>
+</ol>
+
+<h2 id="contributing-1">Contributing</h2>
+
+<p>If you would like to contribute to the project. Please follow these steps to submit a contribution:</p>
+<ul>
+  <li>Comment on the Github issue (or create one if one does not exist) and let us know that you’re working on it.</li>
+  <li>Fork the project (if you have not already) or rebase your fork so that it is up to date with the current repository’s ‘<em><strong>integration</strong></em>’ branch</li>
+  <li>Create a new branch in your fork. This will ensure that you are able to work at your own pace and continue to pull in any updates made to this project.</li>
+  <li>Make your changes in the new branch</li>
+  <li>When you have finished your work, make sure that your version of the ‘<em><strong>integration</strong></em>’ branch is still up to date with this project. Then merge your new branch into your ‘<em><strong>integration</strong></em>’ branch.</li>
+  <li>Then create a new Pull Request (PR) from your branch to this project’s ‘<em><strong>integration</strong></em>’ branch in GitHub</li>
+  <li>The project team will then review your PR and communicate with you to convey any additional changes that would ensure that your work adheres to our guidelines.</li>
+</ul>
+
+<p>See the <a href="https://github.com/portagenetwork/roadmap/blob/integration/.github/CONTRIBUTING.md">Contribution Guide</a> for more information.</p>]]></content><author><name>Alliance</name><email>support@portagenetwork.ca</email></author><summary type="html"><![CDATA[About DMP Assistant]]></summary></entry><entry><title type="html">FAQs</title><link href="http://localhost:4000/faqs/" rel="alternate" type="text/html" title="FAQs" /><published>2022-04-25T00:00:00-04:00</published><updated>2022-04-25T00:00:00-04:00</updated><id>http://localhost:4000/faqs</id><content type="html" xml:base="http://localhost:4000/faqs/"><![CDATA[<p><em>This page is under development</em></p>]]></content><author><name>Alliance</name><email>support@portagenetwork.ca</email></author><summary type="html"><![CDATA[This page is under development]]></summary></entry><entry><title type="html">Institutional Customization Guide</title><link href="http://localhost:4000/institutional-customization-guide/" rel="alternate" type="text/html" title="Institutional Customization Guide" /><published>2022-04-25T00:00:00-04:00</published><updated>2022-04-25T00:00:00-04:00</updated><id>http://localhost:4000/institutional-customization-guide</id><content type="html" xml:base="http://localhost:4000/institutional-customization-guide/"><![CDATA[<h1 id="dmp-assistant-institutional-customization-guide">DMP Assistant Institutional Customization Guide</h1>
+
+<h3 id="version-10-july-13-2016--currently-being-updated"><em>Version 1.0, July 13, 2016 – currently being updated</em></h3>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>Thanks to all members of the Portage DMP Customization Working Group for their contributions to this guide. Members are: Jay Brodeur (McMaster University), Talia Chung (University of Ottawa), Carla Graebner (Simon Fraser University), Alex Guindon (Concordia University), Amber Leahey (Scholars Portal), Anthony Petryk (University of Ottawa), and Weiwei Shi (University of Alberta). Special thanks are expressed to all institutions and individuals who assisted with testing and revision of this document.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>The purpose of this document is to instruct local administrators of the modifications that can be made to <a href="https://assistant.portagenetwork.ca">DMP Assistant</a>, in order to customize its content and appearance to meet their local institutional needs. The following guide introduces the organizational administrative interface, and demonstrates how it can be used to modify DMP Assistant templates (questions and guidance), as well as the “look and feel” of the GUI.</p>
+
+<p>This document was produced by members of the <a href="https://portagenetwork.ca/about/network-of-expertise/expert-groups-membership/#DMPEG">Portage Data Management Planning Expert Group</a>.</p>
+
+<p><a href="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPAsssistant_Customization_Guide_1.0_EN.pdf"><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/Adobe_PDF_file_icon_32x32.png" alt="PDF icon" /></a> You may also download this guide <a href="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPAsssistant_Customization_Guide_1.0_EN.pdf">in PDF format</a>.</p>
+
+<h3 id="contents">Contents</h3>
+
+<p><a href="#section1">1 Preparing for customization</a><br />
+<a href="#section2">2 Accessing and using the organizational administrative interface</a><br />
+<a href="#section21">2.1 Accessing the organizational administration interface</a><br />
+<a href="#section22">2.2 Editing organization details</a><br />
+<a href="#section3">3 Customizing institutional logos, banners and color schemes</a><br />
+<a href="#section31">3.1 Preparing logo and banner images</a><br />
+<a href="#section32">3.2 Uploading images to DMP Assistant</a><br />
+<a href="#section33">3.3 Special notes on interface customization</a><br />
+<a href="#section4">4 GUI CSS customization</a><br />
+<a href="#section41">4.1 Overview</a><br />
+<a href="#section42">4.2 Example: Institutional CSS customization</a><br />
+<a href="#section421">4.2.1 Institutional hexadecimal colour codes</a><br />
+<a href="#section422">4.2.2 Section heading colour</a><br />
+<a href="#section423">4.2.3 Footer colour</a><br />
+<a href="#section424">4.2.4 Top banner text colour</a><br />
+<a href="#section425">4.2.5 Colour of buttons and tables</a><br />
+<a href="#section426">4.2.6 Tab colour</a><br />
+<a href="#section427">4.2.7 Question section colour</a><br />
+<a href="#section428">4.2.8 Guidance and suggestion box colours</a><br />
+<a href="#section429">4.2.9 Top banner background color</a><br />
+<a href="#section5">5 Template customization and management<br />
+</a><a href="#section51">5.1 Template management</a><br />
+<a href="#section511">5.1.1 Template</a><br />
+<a href="#section512">5.1.2 Phase and version</a><br />
+<a href="#section513">5.1.3 Sections and questions</a><br />
+<a href="#section514">5.1.4 Publishing</a><br />
+<a href="#section52">5.2 Adding additional institutional guidance text</a><br />
+<a href="#section521">5.2.1 Previewing institution specific guidance</a><br />
+<a href="#section522">5.2.2 Using institution specific guidance</a><br />
+<a href="#section6">6 Reporting issues/bugs and suggesting new features</a></p>
+
+<h2 id="1-preparing-for-customization">1. Preparing for customization</h2>
+
+<p>To get started with customizing DMP Assistant for your local institution, you will need the following:</p>
+
+<ul>
+  <li>An institutional space within DMP Assistant. This can be requested from the Portage Network by contacting <a href="mailto:portage@carl-abrc.ca">portage@carl-abrc.ca</a>. With an institutional space, a local administrator will have administrative rights to edit basic organizational information and to implement some local customization options. It is recommended that a generic user account be used for administration, as it will reduce the possibility of accidentally transferring administrative privileges between user accounts;</li>
+  <li>An individual designated as your institution’s DMP Assistant local administrator;</li>
+  <li>Your institution’s logo image with a maximum height of 80 px;</li>
+  <li>A CSS file based on the current <a href="https://github.com/ualbertalib/DMPonline_v4/blob/deployment-portage/app/assets/stylesheets/umcmaster-custom.css">template</a> and modified according to the instructions provided in Section 2;</li>
+  <li>The hexadecimal colour codes for branding colours commonly used by your institution (to be used in the CSS file); and,</li>
+  <li>(*Optional*) A top banner image with a height between 90 px to 160 px (<a href="https://raw.githubusercontent.com/ualbertalib/DMPonline_v4/deployment-portage/app/assets/images/top_back.png">example</a>)</li>
+</ul>
+
+<p>For management and accessibility reasons, we ask that you only customize the elements that are described in this guide, using the provided methods. In the case that additional customization is desired, please contact <a href="mailto:portage@carl-abrc.ca">portage@carl-abrc.ca</a>.</p>
+
+<h2 id="2-accessing-and-using-the-organizational-administrative-interface">2. Accessing and using the organizational administrative interface</h2>
+
+<p>As an organization’s local administrator, you can log in and use the organization admin interface to manage your institutional space.</p>
+
+<p>Once you have entered the organizational administrative interface, you will be able to:</p>
+
+<ol>
+  <li>Edit organization details;</li>
+  <li>View basic information for users associated with your organization (email address, last time of log-in, and the number of plans they have created);</li>
+  <li>Create, edit, manage and delete organization specific templates; and,</li>
+  <li>Create, edit, manage and delete organization specific guidance.</li>
+</ol>
+
+<h3 id="21-accessing-the-organizational-administration-interface">2.1 Accessing the organizational administration interface</h3>
+
+<p>Once logged into DMP Assistant with your administrator account, click on <strong>Signed in as …</strong> and then select <strong>Admin area</strong> to access the organizational administration interface.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_1.png" alt="" /></p>
+
+<p>Figure 1: Click on Admin area to access the organizational administration interface.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_2.png" alt="" /></p>
+
+<p>Figure 2: The organizational administrative interface.</p>
+
+<h3 id="22-editing-organization-details">2.2 Editing organization details</h3>
+
+<p>As the local administrator, you may view and edit the information for your organization. Please note, for the time being, not all features are enabled. To edit organizational details:</p>
+
+<p>Click on <strong>Organization details</strong> to view your organization’s basic profile information.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_3.png" alt="" /></p>
+
+<p>Figure 3: Click on Organization details to view your organization’s basic details</p>
+
+<p>Click on the <strong>Edit</strong> button to edit the organization details.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_4.png" alt="" /></p>
+
+<p>Figure 4: Click on the Edit button to edit the organization details.</p>
+
+<p>In the editable organization details page, local administrators can modify their organization’s name, abbreviation, website URL, descriptive information, as well as upload an institutional logo, top banner image, and customized CSS file (see following sections).</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_5.png" alt="" /></p>
+
+<p>Figure 5: The editable organizational details page</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_6.png" alt="" /></p>
+
+<p>Figure 6: Editing organizational details.</p>
+
+<h2 id="3-customizing-institutional-logos-banners-and-color-schemes">3. Customizing institutional logos, banners and color schemes</h2>
+
+<p>To create a local “look and feel” for DMP Assistant users logged-in with their particular institution, local administrators can modify one (or all) of the following elements: institutional logo; top banner image/color; and, institutional-specific color schemes (see Figure 7). The following guidance outlines these customization processes:</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_7.png" alt="" /></p>
+
+<p>Figure 7: An example of a fully-customized DMP Assistant interface.</p>
+
+<h3 id="31-preparing-logo-and-banner-images">3.1 Preparing logo and banner images</h3>
+
+<p>For optimal presentation, your selected institutional/organizational logo image should have a maximum height of 80 px.</p>
+
+<p>The use of a top banner background image (<a href="https://raw.githubusercontent.com/ualbertalib/DMPonline_v4/deployment-portage/app/assets/images/top_back.png">example</a>) is optional. If you choose to use one, the image should have a height between 90 and 160 px for optimal presentation. Alternatively, you can forego the use of a banner image and instead customize the page CSS to select a solid background color for the banner area (see Section 2).</p>
+
+<h3 id="32-uploading-images-to-dmp-assistant">3.2 Uploading images to DMP Assistant</h3>
+
+<p>To upload the images, follow the steps below:</p>
+
+<ol>
+  <li>Login as administrator and follow the steps outlined in Section 1 to access the editable organization details page.</li>
+  <li>Prepare logo and banner images (instructions); customize your CSS file (instructions).</li>
+  <li>Use the interface to upload your customized logo, banner and CSS files into the administrative interface.</li>
+</ol>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_8.png" alt="" /></p>
+
+<p>Figure 8: Use the organizational details interface to upload customized logo, banner and CSS files.</p>
+
+<h3 id="33-special-notes-on-interface-customization">3.3 Special notes on interface customization</h3>
+
+<p>For technical and administrative purposes, administrators should not modify the CSS code beyond that which is demonstrated in the following section (GUI CSS customization).</p>
+
+<p>Other small changes may be possible on a case-by-case basis. If you require specific changes, please contact <a href="mailto:portage@carl-abrc.ca">portage@carl-abrc.ca</a>.</p>
+
+<p>If a new image or CSS file is uploaded, the existing files will be overwritten. If you decide to switch back to original Portage logo/stylesheet and remove all customizations, please follow the directions on the interface. Check the checkboxes and click on <strong>Save</strong> to remove uploaded images, and click on the deletion link to remove uploaded CSS file.</p>
+
+<h2 id="4-gui-css-customization">4. GUI CSS customization</h2>
+
+<h3 id="41-overview">4.1 Overview</h3>
+
+<p>Using <a href="https://github.com/ualbertalib/DMPonline_v4/blob/deployment-portage/app/assets/stylesheets/umcmaster-custom.css">McMaster University’s customized CSS file</a> as a template, institutions can customize the colour scheme of DMP Assistant page using the CSS hexadecimal scheme. The thoroughly commented CSS template (providing additional annotations for each of the allowed colour changes) can be accessed and downloaded <a href="https://github.com/ualbertalib/DMPonline_v4/blob/deployment-portage/app/assets/stylesheets/umcmaster-custom.css">here</a>.</p>
+
+<p>Before you begin editing the CSS file, you will need the hexadecimal colour codes commonly used by your institution. These begin with a # symbol and are followed by six characters (numbers and/or letters). For example, white is #FFFFFF (or #FFF for short) and light grey is #333333.</p>
+
+<p>Once you have your institution’s colours, you can open the CSS template in a text editor (such as Notepad++) and start replacing the existing colours with your institution’s colours.</p>
+
+<p>To ensure you’re using the correct hexadecimal colour scheme, you can use something like <a href="http://www.color-hex.com">www.color-hex.com</a> to verify.</p>
+
+<p>Before you upload your revised CSS to DMP Assistant, ensure you have saved your file with the .css extension.</p>
+
+<h3 id="42-example-institutional-css-customization">4.2 Example: Institutional CSS customization</h3>
+
+<p>The following example illustrates and documents the customization process, as applied by a single institution (McMaster University in this case). Screenshots were taken to show modifications made to the CSS code (with line numbers included, for easy reference), as well as the resulting changes to the interface. Each modification is presented in a separate section; screenshots of editable sections of the CSS file are shown first, followed by the resulting changes to the GUI. Please note that each modification has been applied independently, in order to better demonstrate the resulting effects.</p>
+
+<h4 id="421-institutional-hexadecimal-colour-codes">4.2.1 Institutional hexadecimal colour codes</h4>
+
+<p>For the purposes of this example, McMaster’s hexadecimal colour codes were found by consulting its <a href="http://www.mcmaster.ca/opr/html/opr/mcmaster_brand/main/mcmaster_brand.html">branding guide</a>. The codes are as follows:</p>
+
+<ul>
+  <li>#79133E-maroon</li>
+  <li>#fff-white</li>
+  <li>#990033-red</li>
+</ul>
+
+<h4 id="422-section-heading-colour">4.2.2 Section heading colour</h4>
+
+<p>Replace the hex colour code (#79133E) in the CSS snipped shown below with a desired colour.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_9.png" alt="" /></p>
+
+<p>Figure 9: Section heading changes in the CSS file.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_10.png" alt="" /></p>
+
+<p>Figure 10: Resulting section heading colour changes in the GUI.</p>
+
+<h4 id="423-footer-colour">4.2.3 Footer colour</h4>
+
+<p>Modify the hex colour codes for the footer banner (6 character hex code) and the footer text colour (3 character hex code).</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_11.png" alt="" /></p>
+
+<p>Figure 11: Footer colour changes in the CSS file.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_12.png" alt="" /></p>
+
+<p>Figure 12: Resulting footer colour changes in the GUI.</p>
+
+<h4 id="424-top-banner-text-colour">4.2.4 Top banner text colour</h4>
+
+<p>Modify the hex colour code for the three lines shown below</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/figure13.png" alt="" /></p>
+
+<p>Figure 13: CSS file changes for the top banner colour (3 steps).</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_16.png" alt="" /></p>
+
+<p>Figure 14: Resulting footer colour changes in the GUI.</p>
+
+<h4 id="425-colour-of-buttons-and-tables">4.2.5 Colour of buttons and tables</h4>
+
+<p>Modify the hex colour code for the four lines shown below:</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/Figure15.png" alt="" /></p>
+
+<p>Figure 15: CSS file changes for the button and table colours (4 steps).</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_21.png" alt="" /></p>
+
+<p>Figure 16: Resulting table and button colour changes in the GUI.</p>
+
+<h4 id="426-tab-colour">4.2.6 Tab colour</h4>
+
+<p>Modify the hex colour code in the three lines shown below:</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_22.png" alt="" /></p>
+
+<p>Figure 17: CSS file changes for tab colour.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_23.png" alt="" /></p>
+
+<p>Figure 18: Resulting tab colour changes in the GUI.</p>
+
+<h4 id="427-question-section-colour">4.2.7 Question section colour</h4>
+
+<p>Modify the hex colour codes for the four lines shown below:</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_24.png" alt="" /></p>
+
+<p>Figure 19: CSS file changes for section colour.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_25.png" alt="" /></p>
+
+<p>Figure 20: Resulting section colour changes in the GUI.</p>
+
+<h4 id="428-guidance-and-suggestion-box-colours">4.2.8 Guidance and suggestion box colours</h4>
+
+<p>Modify the hex colour codes for the three lines shown below:</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_26.png" alt="" /></p>
+
+<p>Figure 21: CSS file changes for guidance and suggestion box colours.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_27.png" alt="" /></p>
+
+<p>Figure 22: Resulting guidance and suggestion box colour changes in the GUI.</p>
+
+<h4 id="429-top-banner-background-color">4.2.9 Top banner background color</h4>
+
+<p>To use a customized background color, add the following line to your CSS (replacing #c7e2fa with a hex colour code of your preference).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> .dmponline {
+       background-color: #c7e2fa;
+       }
+</code></pre></div></div>
+
+<h2 id="5-template-customization-and-management">5. Template customization and management</h2>
+
+<p>The Portage template can be regarded as a generic DMP template that can be used “out of the box” by any researcher. Not all institutions will need nor want to develop an institutional template, but the functionality is available for those who feel it is important for their organization. For those institutions wishing to provide customized templates (questions and guidance) to meet specific needs, the following steps demonstrate how a custom template can be created using the administrative interface.</p>
+
+<h3 id="51-template-management">5.1 Template management</h3>
+
+<p>The steps for template management follow the logical sequence of Template-&gt;Phase-&gt;Version-&gt;Section-&gt;Questions. Please note that at any point, you can preview the template by clicking on <strong>Preview</strong> under <strong>Actions</strong>.</p>
+
+<h4 id="511-template">5.1.1 Template</h4>
+
+<p>To create a new template, click on Templates on the top navigation, and then click on <strong>Create a template</strong>:</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_28.png" alt="" /></p>
+
+<p>Figure 23: The Templates page allows you to view, edit or create new templates.</p>
+
+<p>Provide title and description information for the new template, and then click on <strong>Save</strong>:</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_29.png" alt="" /></p>
+
+<p>Figure 24: Inserting title and description for a new template.</p>
+
+<h4 id="512-phase-and-version">5.1.2 Phase and version</h4>
+
+<p>Phases are used to indicate different stages of a research project (e.g. pre- / during / post-project). The generic Portage Template is not a phased template. To create a single phased template like the generic Portage Template, you only need to add a new phase once. Click on the Add new phase+ tab to add a new phase of the template. The phase title is what users will see in the tabs when completing a plan. If you only need one phase, you may wish to give it a generic title such as _<Your Institution="">\_ Data Management Questions_.</Your></p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_30.png" alt="" /></p>
+
+<p>Figure 25: Adding a phase to a template.</p>
+
+<p>When a new phase is created, the creation of a new version of the template is triggered. For example, when the new phase is created for a new template, the first version of the template will be automatically created.</p>
+
+<p>To make major changes to a template that has already been published (such as adding a new section or series of questions), you should create a new version. To make small changes such as correcting typos, choose to edit the current version.</p>
+
+<p>Click on <strong>Save</strong> to move on to creating sections and questions.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_31.png" alt="" /></p>
+
+<p>Figure 26: The template details page.</p>
+
+<h4 id="513-sections-and-questions">5.1.3 Sections and questions</h4>
+
+<p>To add a new section, enter the section title at the bottom of the <em>Version editing</em> page, and click on <strong>Add section</strong>. Use the <strong>+</strong> to expand the section editing window for adding description information and to define the order in which the sections will be displayed.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_32.png" alt="" /></p>
+
+<p>Figure 27: Adding a new section.</p>
+
+<p>Add questions to each section by selecting <strong>Add question</strong>.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_33.png" alt="" /></p>
+
+<p>Figure 28: Adding a new question.</p>
+
+<p>When adding questions, you can:</p>
+
+<ul>
+  <li>Use the Question number dropdown menu to define the display order of questions within a section: eg. Question number 1 will be displayed first in the section. By changing the question number, the order in which the questions appear on the template will change accordingly.</li>
+  <li>Choose the <em>Answer format</em>:
+    <ul>
+      <li><em>text area</em> for long paragraphs of text;</li>
+      <li><em>text field</em> for a short text answer;</li>
+      <li><em>checkbox</em> for presenting options for multiple value selection;</li>
+      <li><em>radio button</em> for presenting options for single value selection;</li>
+      <li><em>dropdown list</em> for controlled vocabulary selection;</li>
+      <li><em>multiple select box</em> for allowing users to select multiple options from a scrollable list using the CTRL key.</li>
+    </ul>
+  </li>
+  <li>Define <em>default answer</em> for each question. The answer will be displayed in the answer box for users.</li>
+  <li>Define a <em>suggested answer</em> for each question. The example provided will be presented above the answer box and can be easily copied/pasted by the user.</li>
+  <li>Create question specific <em>guidance</em>. The guidance text entered here will always be displayed alongside the question, no matter what other guidance groups are selected (guidance groups are described in section 3.2.1).</li>
+</ul>
+
+<h4 id="514-publishing">5.1.4 Publishing</h4>
+
+<p>Once the sections and questions have been created, select the <em>Published</em> checkbox in the <em>Version</em> editing section to indicate the active version being used within your template. This step is necessary and indicates that the version is active and ready to be published as part of a template which itself must be published before it is made public.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_34.png" alt="" /></p>
+
+<p>Figure 29: “Publish a version”, the checkbox is selected, then save to publish the template.</p>
+
+<p>Once a version has been marked as published, return to the Template details tab. Select <strong>Edit template details</strong>.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_35.png" alt="" /></p>
+
+<p>Figure 30: “Template details” tab to access the template details editing page. Remember to first select a version of the template before proceeding to publish.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_36.png" alt="" /></p>
+
+<p>Figure 31: “Template details editing” page with the checkbox selected in order to publish the template.</p>
+
+<p>Once the template is published, your users will see your new template as an available selection when they create a new DMP. The institutional template will be the default template and will be listed first in the dropdown selection menu.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_37.png" alt="" /></p>
+
+<p>Figure 32: “Create a new plan” page showing two published templates as options.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_38.png" alt="" /></p>
+
+<p>Figure 33: Confirmation dialogue box showing selection of customized institutional template.</p>
+
+<h4 id="52-adding-additional-institutional-guidance-text">5.2 Adding additional institutional guidance text</h4>
+
+<p>In some cases, it may be desirable or necessary to enhance a template’s existing guidance text (e.g., the Portage template guidance) with additional, institutional-specific instructions.</p>
+
+<p>In order to create institution-specific guidance text, local administrators must first create one or more Guidance Groups, to which guidance texts can be associated. Once this is done, the local administrator can generate an institutional guidance frame, which appears alongside the default template guidance in the GUI, by creating a guidance group guidance text.</p>
+
+<ol>
+  <li>You will need to first create a Guidance Group for your institution</li>
+</ol>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_39.png" alt="" /></p>
+
+<p>Figure 34: Guidance group list, allowing the creation of new guidance groups and guidance text.</p>
+
+<ul>
+  <li>You can identify which templates should be associated with a particular guidance group. You could create Portage and institution specific guidance as needed or generic guidance text that is applicable to all templates for users from your institution.</li>
+  <li>If the guidance is only meant for a subset of your users, you can save the guidance as an optional subset. Users will be able to select whether or not to display this subset in the create plan wizard.</li>
+</ul>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_40.png" alt="" /></p>
+
+<p>Figure 35: Assigning a guidance group to a template.</p>
+
+<ol>
+  <li>Once the guidance group is created, create individual guidance text by selecting Add guidance. You can draft guidance language to accompany specific questions.</li>
+</ol>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_41.png" alt="" /></p>
+
+<p>Figure 36: Creating new guidance text.</p>
+
+<ul>
+  <li>For guidance by question, you will need to indicate:
+    <ol>
+      <li>the template in which the question is found;</li>
+      <li>the phase of the template (e.g. phase for early vs. late part of the data management process);</li>
+      <li>the version of the template;</li>
+      <li>the section from the template in which the question is found; and,</li>
+      <li>the question to which the guidance will apply.</li>
+    </ol>
+  </li>
+</ul>
+
+<h4 id="521-previewing-institution-specific-guidance">5.2.1 Previewing institution specific guidance</h4>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_42.png" alt="" /></p>
+
+<p>Figure 37: Click Preview to preview institutional specific guidance.</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_43.png" alt="" /></p>
+
+<p>Figure 38: A preview of institutional guidance.</p>
+
+<h4 id="522-using-institution-specific-guidance">5.2.2 Using institution specific guidance</h4>
+
+<ol>
+  <li>On the create plan page, select your institution from the drop down menu.</li>
+</ol>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_44.png" alt="" /></p>
+
+<p>Figure 39: Selecting an institution when creating a new plan.</p>
+
+<ol>
+  <li>Next, select the template to which the guidance applies.</li>
+</ol>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_45.png" alt="" /></p>
+
+<p>Figure 40: Selecting a template when creating a new plan.</p>
+
+<ol>
+  <li>Last, select the institution-specific guidance you wish to display (if it has been listed as an optional subset).</li>
+</ol>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_46.png" alt="" /></p>
+
+<p>Figure 41: Enabling additional guidance sources when creating a new plan.</p>
+
+<p>It looks like this in the user interface:</p>
+
+<p><img src="https://portagenetwork.ca/wp-content/uploads/2016/07/DMPcustom_47.png" alt="" /></p>
+
+<p>Figure 42: Example of institutional-specific guidance during normal use.</p>
+
+<h2 id="6-reporting-issuesbugs-and-suggesting-new-features">6. Reporting issues/bugs and suggesting new features</h2>
+
+<p>All issues, bugs and new feature requests can be submitted via the issues page on DMP Assistant’s GitHub page: <a href="https://github.com/ualbertalib/DMPonline_v4/issues">https://github.com/ualbertalib/DMPonline_v4/issues</a>. In order to submit issues to the Github page, you must first have a Github user account (can be created at no cost).</p>]]></content><author><name>Alliance</name><email>support@portagenetwork.ca</email></author><summary type="html"><![CDATA[DMP Assistant Institutional Customization Guide]]></summary></entry><entry><title type="html">Term of Use</title><link href="http://localhost:4000/term-of-use/" rel="alternate" type="text/html" title="Term of Use" /><published>2022-04-25T00:00:00-04:00</published><updated>2022-04-25T00:00:00-04:00</updated><id>http://localhost:4000/term-of-use</id><content type="html" xml:base="http://localhost:4000/term-of-use/"><![CDATA[<h1 id="terms-of-use">Terms of use</h1>
+
+<p>Portage is a national, library-based research data management network sponsored by the Canadian Association of Research Libraries (CARL) that cooperates with other RDM initiatives to build capacity and better coordinate shared activities.</p>
+
+<h1 id="data-management-planning-templates-and-resources">Data management planning templates and resources</h1>
+
+<p>The Portage Data Stewardship Template and associated guidance on <a href="https://assistant.portagenetwork.ca/">Portage DMP Assistant</a> (but not the plans themselves) are under a <a href="http://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero License.</a></p>
+
+<p>Institutional data management planning templates and their associated guidance are under their own Creative Commons License terms. <a href="https://assistant.portagenetwork.ca/en/help#contact_info">Contact individual institution</a> for more details.</p>
+
+<h1 id="your-personal-details">Your personal details</h1>
+
+<p>DMP Assistant keeps limited information about users. In order to help identify and administer your account, we need to store your profile information and email address.</p>
+
+<p>We may use your email address to contact you to obtain feedback on your use of the tool or to inform you of the latest developments or releases. The information may be transferred between the Portage partner institutions but only for legitimate internal purposes. We will not sell, rent or trade any personal information you provide to us.</p>
+
+<h1 id="your-account-activity-information">Your account activity information</h1>
+
+<p>For security and version control purposes, DMP Assistant records the user’s last login time, as well as information on when responses were saved and by whom. No other session information is stored nor is clickstream data tracked or retained in the DMP Assistant.</p>
+
+<p>The web hosting service (provided by University of Alberta) does collect clickstream data, but this information is captured anonymously and cannot be linked to a specific user. See the <a href="https://library.ualberta.ca/about-us/policies/privacy-policy">UofA Privacy Policy</a>.</p>
+
+<h1 id="privacy-policy--your-dmp-data">Privacy Policy / Your DMP data</h1>
+
+<p>Information added to the DMP Assistant is only accessible to the researcher and those with whom the researcher chooses to share access. Administrators of DMP Assistant are only able to view the project description; they have no access to any other information in researchers’ plans.</p>
+
+<h1 id="freedom-of-information">Freedom of Information</h1>
+
+<p>The Alberta <em>Freedom of Information and Protection of Privacy Act</em> (“<strong>FOIP</strong>“) generally applies to any records that are collected, used or disclosed in the course of the operations of the university (subject to some limited exceptions). FOIP imposes obligations on the university to:</p>
+
+<ol>
+  <li>provide access to records under the custody or control of the university, subject to limited exceptions; and</li>
+  <li>protect the personal information that is under its custody or control by making reasonable security arrangements against risks such as unauthorized access, collection, use, disclosure or destruction.</li>
+</ol>
+
+<h1 id="passwords">Passwords</h1>
+
+<p>Passwords of registered users are stored in encrypted form and cannot be retrieved. Forgotten passwords must be reset. Passwords are not stored for users registering and logging in using <a href="https://www.canarie.ca/identity/caf/">CAF Authentication</a>.</p>
+
+<h1 id="google-analytics-opt-out">Google Analytics Opt-Out</h1>
+
+<p>This website uses Google Analytics to capture and analyze usage statistics, but it doesn’t link to specific users, and information remains anonymous. You may choose to opt-out of having your website activity tracked by Google Analytics. To do so, visit the <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics opt-out page</a> and install the add-on for your browser.</p>
+
+<h1 id="revisions">Revisions</h1>
+
+<p>This statement was last revised on March 10, 2017 and may be revised at any time. Use of the tool indicates that you understand and agree to these terms and conditions.</p>
+
+<h1 id="third-party-apis">Third Party APIs</h1>
+
+<p>The DMP Assistant does not currently use third-party APIs.</p>
+
+<h1 id="cookies">Cookies</h1>
+
+<p>Cookies are small pieces of text sent to your web browser by a website you visit. It’s stored in your web browser and allows the website to improve your user experience. Cookies cannot be used to identify you personally. DMP Assistant uses session cookies to keep the session information so that the user’s interaction with the application is persistent on their visit. The cookie will be automatically created when the user starts browsing the site and will be expired when the browsing session ends. DMP Assistant also uses cookies for analytics purpose with Google Analytics. A set of cookies may be used to collect and report website usage statistics without personally identifying individual visitors, so we can understand how visitors are engaged with the application.</p>]]></content><author><name>Alliance</name><email>support@portagenetwork.ca</email></author><summary type="html"><![CDATA[DMP Assistant Term of Use]]></summary></entry><entry><title type="html">Test Post</title><link href="http://localhost:4000/test-post/" rel="alternate" type="text/html" title="Test Post" /><published>2022-04-25T00:00:00-04:00</published><updated>2022-04-25T00:00:00-04:00</updated><id>http://localhost:4000/test-post</id><content type="html" xml:base="http://localhost:4000/test-post/"><![CDATA[<h1 id="search">Search</h1>
+
+<p>All post will be searchable across this site</p>]]></content><author><name>Alliance</name><email>support@portagenetwork.ca</email></author><summary type="html"><![CDATA[Search]]></summary></entry></feed>
