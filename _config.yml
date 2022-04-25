@@ -108,9 +108,6 @@ author:
   location         : "Canada"
   email            : "support@portagenetwork.ca"
   links:
-    - label: "Email Us"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:support@portagenetwork.ca"
     - label: "The Alliance"
       icon: "fas fa-fw fa-link"
       url: "https://alliancecan.ca/en"
