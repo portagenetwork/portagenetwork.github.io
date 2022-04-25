@@ -119,10 +119,10 @@ author:
 footer:
   links:
     - label: "Contact Us"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fa fa-fw fa-envelope-square"
       url: "mailto:support@portagenetwork.ca"
     - label: "The Digital Research Alliance of Canada"
-      icon: "fas fa-fw fa-link"
+      icon: "fa fa-fw fa-link"
       url: "https://alliancecan.ca/en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -196,7 +196,7 @@ sass:
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /pages:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 

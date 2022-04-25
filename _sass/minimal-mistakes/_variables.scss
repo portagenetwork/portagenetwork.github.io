@@ -5,6 +5,7 @@
 /*
    Typography
    ========================================================================== */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 $doc-font-size: 16 !default;
 
@@ -57,7 +58,7 @@ $h-size-6: 1em !default; // ~16px
 $gray: #7a8288 !default;
 $dark-gray: #32322f !default;
 $darker-gray:#000, !default;
-$light-gray: mix(#fff, $gray, 50%) !default;
+$light-gray: #32322F !default;
 $lighter-gray: mix(#fff, $gray, 90%) !default;
 
 $background-color: #fff !default;
@@ -78,8 +79,8 @@ $focus-color: $primary-color !default;
 $active-color: mix(#fff, #000, 80%) !default;
 
 /* YIQ color contrast */
-$yiq-contrasted-dark-default: $dark-gray !default;
 $yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-dark-default: $darker-gray !default;
 $yiq-contrasted-threshold: 175 !default;
 $yiq-debug: false !default;
 
