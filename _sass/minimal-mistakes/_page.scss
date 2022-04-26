@@ -17,6 +17,10 @@
   @include breakpoint($x-large) {
     max-width: $max-width;
   }
+  @include breakpoint($medium) {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
 }
 
 body {
@@ -176,7 +180,7 @@ body {
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 3em 0;
+    padding: 3em;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;

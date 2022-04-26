@@ -13,6 +13,7 @@ header:
 toc: true
 toc_label: "Institutional Customization Guide"
 toc_icon: "cog"
+toc_sticky: true
 ---
 DMP Assistant Institutional Customization Guide
 ===============================================

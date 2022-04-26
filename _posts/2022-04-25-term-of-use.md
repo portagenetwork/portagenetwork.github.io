@@ -13,7 +13,7 @@ header:
 toc: true
 toc_label: "Term of Use"
 toc_icon: "cog"
-toc_sticky: false
+toc_sticky: true
 ---
 Terms of use
 ============
